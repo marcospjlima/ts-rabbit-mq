@@ -1,0 +1,5 @@
+EXCHANGE=Numeros
+FILA_PAR=Par
+FILA_IMPAR=Impar
+ROTA_PAR=par
+ROTA_IMPAR=impar

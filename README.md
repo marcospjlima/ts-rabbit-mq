@@ -1,6 +1,5 @@
 # Projeto webservice para utilização da mensageria Rabbitmq utilizando Typescript
-# Esse projeto é um exemplo simples para verificar se o números é par ou impar.
-# De acordo com o tipo (par o ímpar), esse número é adicionado em sua respectiva fila para ser consumido.
+#### Esse projeto é um exemplo simples para verificar se um número é par ou impar e de acordo com o tipo é adicionado em sua respectiva fila para ser consumido.
 
 > **Comandos utilizados:**
 

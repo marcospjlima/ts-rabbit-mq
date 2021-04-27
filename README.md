@@ -29,7 +29,7 @@ docker pull rabbitmq
 
 > Rabbitmq
 >> URL do gerenciador do Rabbitmq http://localhost:15672/.
->> Usuario e Senha: guest
+>> * Usuario e Senha: guest
 >> * Necessário criar os itens abaixo: 
 >> 1. Exchange: Numeros 
 >> 2. Filas: Par e Impar

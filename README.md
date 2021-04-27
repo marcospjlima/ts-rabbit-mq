@@ -29,6 +29,7 @@ docker pull rabbitmq
 
 > Rabbitmq
 >> URL do gerenciador do Rabbitmq http://localhost:15672/.
+>> Usuario e Senha: guest
 >> * Necessário criar os itens abaixo: 
 >> 1. Exchange: Numeros 
 >> 2. Filas: Par e Impar
@@ -37,14 +38,14 @@ docker pull rabbitmq
 > **Executar as funcionalidade desse projeto**
 >> * Obs: O Rabbitmq tem que estar ativo/online 
 
-yarn start (servidor)
-yarn worker_par (consumidor da fila PAR)
-yarn worker_impar (consumidor da fila IMPAR)
+> **Coimando para executar os serviços Produtor e Consumidor **
+>> yarn start (servidor)
+>> yarn worker_par (consumidor da fila PAR)
+>> yarn worker_impar (consumidor da fila IMPAR)
 
 > **URL para testar pelo Exchange**
-localhost:3333/queue
-
-localhost:3333/exchange
+>> localhost:3333/queue
+>> localhost:3333/exchange
 
 > **JSON**
 ```

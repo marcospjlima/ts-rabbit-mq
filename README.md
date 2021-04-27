@@ -38,10 +38,10 @@ docker pull rabbitmq
 > **Executar as funcionalidade desse projeto**
 >> * Obs: O Rabbitmq tem que estar ativo/online 
 
-> **Coimando para executar os serviços Produtor e Consumidor **
->> yarn start (servidor)
->> yarn worker_par (consumidor da fila PAR)
->> yarn worker_impar (consumidor da fila IMPAR)
+> **Comando para executar os serviços Produtor e Consumidor **
+>> 1. yarn start (servidor)
+>> 2. yarn worker_par (consumidor da fila PAR)
+>> 3. yarn worker_impar (consumidor da fila IMPAR)
 
 > **URL para testar pelo Exchange**
 >> localhost:3333/queue

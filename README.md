@@ -16,6 +16,9 @@
 * yarn add amqplib-plus
 * yarn add amqplib
 * yarn add @types/amqplib -D
+* yarn add axios
+* yarn add @types/axios -D
+
 
 > Para instalar as bibliotecas do projeto: 
 * **yarn install** ou **npm install**
@@ -49,6 +52,20 @@ docker pull rabbitmq
 ```
 {
 	"name": "John W"
+}
+```
+
+> **Comando para executar os serviços Produtor e Consumidor por FILA**
+>> 1. yarn start (servidor)
+>> 2. yarn worker_cep (consumidor)
+
+> **URL para testar por Fila **
+>> localhost:3333/queue
+
+> **JSON**
+```
+{
+	"cep": "01001000"
 }
 ```
 
